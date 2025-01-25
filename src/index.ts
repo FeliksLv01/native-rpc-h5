@@ -1,5 +1,3 @@
-const test = () => {
+import NativeRPC from './native-rpc';
 
-}
-
-export default test;
+export default NativeRPC;

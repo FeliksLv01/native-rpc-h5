@@ -2,7 +2,7 @@
   "name": "@iwut/native-rpc-h5",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
