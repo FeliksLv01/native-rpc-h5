@@ -1,18 +1,18 @@
-import NativeRPCStub from './native-rpc';
+import NativeRPCStub from "./native-rpc";
 
 export interface HybridWindow {
-	androidBridge?: {
-		postMessage(data: string): void;
-		onmessage?: (event: { data: string }) => void;
-	};
-	webkit?: {
-		messageHandlers?: {
-			bridge: {
-				postMessage(data: any): void;
-			};
-		};
-	};
-	rpcClient?: NativeRPCStub;
+  androidBridge?: {
+    postMessage(data: string): void;
+    onmessage?: (event: { data: string }) => void;
+  };
+  webkit?: {
+    messageHandlers?: {
+      bridge: {
+        postMessage(data: any): void;
+      };
+    };
+  };
+  rpcClient?: typeof NativeRPCStub;
 }
 
 export const win = window as HybridWindow;
