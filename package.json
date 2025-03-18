@@ -1,10 +1,9 @@
 {
-  "name": "@iwut/native-rpc-h5",
+  "name": "iwut-native-rpc-h5",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "type": "module",
-  "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
