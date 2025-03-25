@@ -1,6 +1,6 @@
 {
   "name": "@token-team/native-rpc-h5",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
