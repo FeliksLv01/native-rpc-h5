@@ -1,4 +1,4 @@
-# @iwut/native-rpc-h5
+# @token-team/native-rpc-h5
 
 掌上吾理 H5 NativeRPC SDK，用于调用 Native 能力
 
@@ -6,17 +6,17 @@
 
 ```ts
 type AppInfo = {
-	appId: string;
-	appName: string;
-	appVersion: string;
-	systemVersion: string;
+  appId: string;
+  appName: string;
+  appVersion: string;
+  systemVersion: string;
 };
 
-NativeRPC.call<AppInfo>('app.info').then((res) => {
-	console.log(res.appVersion);
+NativeRPC.call<AppInfo>("app.info").then((res) => {
+  console.log(res.appVersion);
 });
 
-const response = await NativeRPC.call<AppInfo>('app.info');
+const response = await NativeRPC.call<AppInfo>("app.info");
 console.log(response.appVersion);
 ```
 
