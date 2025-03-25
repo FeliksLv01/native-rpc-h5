@@ -1,0 +1,9 @@
+# 忽略所有文件
+*
+
+# 发布 dist 目录
+!dist/
+
+# 发布 README.md 和 package.json
+!README.md
+!package.json
